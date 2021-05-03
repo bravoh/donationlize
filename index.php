@@ -44,8 +44,21 @@
                         <input type="hidden" name="confirmation_note" value="Samplemerchant wishes you pleasure reading your new book!">
                         <input type="hidden" name="merchant_fields" value="field1">
                         <input type="hidden" name="title" value="Mr">
-                        <input type="hidden" name="firstname" value="John">
-                        <input type="hidden" name="lastname" value="Payer">
+
+                        <div class="form-group">
+                            <p>First Name</p>
+                            <input type="text" name="firstname" class="form-control" placeholder="First Name">
+                        </div>
+                        <div class="form-group">
+                            <p>Last Name</p>
+                            <input type="text" name="lastname" class="form-control" placeholder="Last Name">
+                        </div>
+
+                        <div class="form-group">
+                            <p>Email Address</p>
+                            <input name="sign-in.email" type="email" autocomplete="email" class="form-control" required="" pattern=".*@.*" placeholder="Email">
+                        </div>
+
                         <input type="hidden" name="address" value="11 Payerstr St">
                         <input type="hidden" name="address2" value="Payertown">
                         <input type="hidden" name="phone_number" value="0207123456">
@@ -77,7 +90,7 @@
                         <input type="hidden" name="ondemand_max_currency" value="USD">
 
                         <!--<input type="hidden" name="amount" value="39.60">-->
-
+                        <br/>
                         <ul class="list-group radio-group">
                             <li class="list-group-item">
                                 <label>
@@ -142,7 +155,10 @@
                             </li>
                         </ul>
 
-                        <br>
+                        <p class="banderole default" style="display: block">
+                            <input type="checkbox" required> I agree to <a href="https://bcp-a.org">Borders Community Peacenet Africa</a> Privacy Policy
+                        </p>
+
                         <button class="btn btn-primary btn-lg btn-block">Donate</button>
                         <p class="text-center">
                             <span class="payment-icons" title="Donations to Liberapay can be paid using: a credit or debit card (Visa, MasterCard, American Express), a Euro bank account (SEPA Direct Debit), or a PayPal account." data-toggle="tooltip" data-placement="bottom">
