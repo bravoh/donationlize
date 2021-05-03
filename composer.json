@@ -1,0 +1,16 @@
+{
+    "name": "bravoh/donations",
+    "description": "A simple donations project with PaySafe",
+    "type": "project",
+    "require": {
+        "paysafegroup/paysafe_sdk_php": "1.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "bravoh",
+            "email": "kiptoobravo@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
