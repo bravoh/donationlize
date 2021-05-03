@@ -35,6 +35,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -43,7 +48,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1620028957706</updated>
-      <workItem from="1620028959261" duration="13938000" />
+      <workItem from="1620028959261" duration="15337000" />
     </task>
     <servers />
   </component>
@@ -55,10 +60,10 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="630" y="358" width="650" height="400" key="#com.intellij.fileTypes.FileTypeChooser/0.30.1920.1050@0.30.1920.1050" timestamp="1620033247785" />
-    <state x="780" y="481" width="349" height="155" key="NewPhpFileDialog" timestamp="1620049484691">
+    <state x="780" y="481" width="349" height="155" key="NewPhpFileDialog" timestamp="1620051889187">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="780" y="481" width="349" height="155" key="NewPhpFileDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1620049484691" />
+    <state x="780" y="481" width="349" height="155" key="NewPhpFileDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1620051889187" />
     <state x="668" y="299" width="583" height="512" key="find.popup" timestamp="1620047213054">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>

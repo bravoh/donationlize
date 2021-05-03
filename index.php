@@ -1,27 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-<head prefix="og: https://bcp-a.org/">
-    <meta name="robots" content="noindex,nofollow">
-    <meta property="og:title" content="Donate to BCP-A via Liberapay">
-    <meta property="og:type" content="profile">
-    <meta property="og:url" content="https://bcp-a.org/">
-    <meta property="og:image" content="8cc4cc06c9430fe22232f586aae6a7d9">
-    <meta property="og:site_name" content="Liberapay">
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@liberapay">
-
-    <meta property="og:description" content="Support Liberapay&#39;s work with a recurrent donation.">
-    <title>Donate to Liberapay via Liberapay</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="images/icon-v2_black.16.png" type="image/png">
-    <link rel="apple-touch-icon" href="images/icon-v2_white-on-yellow.200.png">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/base.css" type="text/css">
-    <link rel="stylesheet" href="css/fork-awesome.min.css" type="text/css">
-    <meta name="theme-color" content="#f6c915">
-    <script async src="js/api.js"></script></head>
+<?php include "header.php" ?>
 <body id>
-
 <div id="main">
     <div class="container">
         <div id="subnav"></div>
@@ -34,14 +14,14 @@
                     <input type="hidden" name="currency" value="USD">
                     <div class="form-group">
                         <input type="hidden" name="pay_to_email" value="demoqco@sun-fish.com">
-                        <input type="hidden" name="return_url" value="return_url.php">
+                        <input type="hidden" name="return_url" value="https://bcp-a.org/donations/thankyou.php">
                         <input type="hidden" name="return_url_target" value="1">
-                        <input type="hidden" name="cancel_url" value="cancel_url.php">
+                        <input type="hidden" name="cancel_url" value="https://bcp-a.org/donate">
                         <input type="hidden" name="cancel_url_target" value="1">
-                        <input type="hidden" name="status_url" value="status_url.php">
+                        <input type="hidden" name="status_url" value="https://bcp-a.org/donations/status.php">
                         <input type="hidden" name="dynamic_descriptor" value="Descriptor">
                         <input type="hidden" name="language" value="EN">
-                        <input type="hidden" name="confirmation_note" value="Samplemerchant wishes you pleasure reading your new book!">
+                        <input type="hidden" name="confirmation_note" value="Thank you for donating to BCP-A!">
                         <input type="hidden" name="merchant_fields" value="field1">
                         <input type="hidden" name="title" value="Mr">
 
@@ -164,7 +144,7 @@
                             <span class="payment-icons" title="Donations to Liberapay can be paid using: a credit or debit card (Visa, MasterCard, American Express), a Euro bank account (SEPA Direct Debit), or a PayPal account." data-toggle="tooltip" data-placement="bottom">
                                 <span class="fa fa-credit-card" aria-hidden="true"></span>
                                 <span class="fa fa-bank" aria-hidden="true"></span>
-                                <span class="fa fa-paypal" aria-hidden="true"></span>
+<!--                                <span class="fa fa-skril" aria-hidden="true"></span>-->
                             </span>
                         </p>
                     </div>
@@ -195,23 +175,6 @@
         </div>
     </div>
 </div>
-
-<script src="js/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/base.js"></script>
-
-<script type="text/javascript">
-    (function(){
-        window[
-            '__CF$cv$params']={
-            r:'6497f442fefa0c1d',
-            m:'3d699c3d6894fb76a9fffb81e512bd8fea235312-1620028810-1800-AQBxPysM4M7FtgCBkDqgZzqFvXPR0w548QNC67eh3bdWWUNQTDCuI3xYb+j0pkss3wHXjJqoOo5ZL/+t2EAcb2fDU/c5s4/vfLrWLzhBtBVL4E2uXP+d5yf/CBHURo0bw5xqUF9rYA67cuUrY8NXsRc=',
-            s:[
-                0xfb84851cdc,
-                0x8c0b81777d
-            ],
-        }
-    })();
-</script>
+<?php include "scripts.php" ?>
 </body>
 </html>
